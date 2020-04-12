@@ -1,0 +1,98 @@
+.row {
+     display: block;
+     width: 98vw;
+     margin: 0 auto;
+
+
+
+     ::after {
+          @include clear;
+     }
+
+     .col-1-of-2 {
+          width: 47.8%;
+          float: left;
+          padding: 1rem;
+
+          margin: 1%;
+     }
+
+     .col-1-of-3 {
+          width: 31.2%;
+          float: left;
+          padding: 1rem;
+          margin: 1%;
+     }
+
+     .col-1-of-4 {
+          width: 22.9%;
+          float: left;
+          padding: 1rem;
+
+          margin: 1%;
+     }
+
+     .col-2-of-3 {
+          width: 64.3%;
+          float: left;
+          padding: 1rem;
+
+          margin: 1%;
+     }
+
+     .col-2-of-4 {
+          width: 47.5%;
+          float: left;
+          padding: 1rem;
+
+          margin: 1%;
+     }
+
+
+}
+
+@media screen and (max-width:1000px) {
+     .row {
+
+          .col-1-of-2 {
+               float: none;
+               width: 96%;
+               padding: .5rem;
+               margin: .5rem;
+          }
+
+          .col-1-of-3 {
+               float: none;
+
+               width: 96%;
+               padding: .5rem;
+               margin: .5rem;
+          }
+
+          .col-1-of-4 {
+               float: none;
+
+               width: 96%;
+               padding: .5rem;
+               margin: .5rem;
+          }
+
+          .col-2-of-3 {
+               float: none;
+
+               width: 96%;
+               padding: .5rem;
+               margin: .5rem;
+          }
+
+          .col-2-of-4 {
+               float: none;
+
+               width: 96%;
+               padding: .5rem;
+               margin: .5rem;
+          }
+
+
+     }
+}

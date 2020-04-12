@@ -1,0 +1,10 @@
+// ********************************************************************************************************        A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. You can even pass in values to make your mixin more flexible.   *************************************************************************************
+
+
+@mixin clear {
+     content: " ";
+     visibility: hidden;
+     display: block;
+     height: 0;
+     clear: both;
+}
