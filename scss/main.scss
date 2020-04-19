@@ -2,14 +2,34 @@
 @import "mixins";
 @import "grids";
 
-// 
+//
 // sass scss/main.scss:css/style.css --watch        --code for sass compilation
 
 // navbar style
+.sitelogo {
+  text-align: center;
+  font-size: 140%;
+  background-color: rgb(194, 248, 184);
 
-p {
+  h2 {
+    color: blueviolet;
+    padding: 1rem 1rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+}
 
+#nav-button {
+  float: left;
+  color: #fff700;
+  padding: 0.2rem 1rem;
+  font-family: inherit;
+  background: #007effa1;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  display: none;
+}
 
+<<<<<<< HEAD
      color: green;
      padding: 1rem;
      margin: 0 auto;
@@ -24,3 +44,39 @@ h1 {
      border-bottom: 4px solid green;
 
 }
+=======
+ul {
+  text-align: center;
+  li {
+    display: inline-block;
+
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    padding: 1rem 7px;
+    margin: 1rem 0.3rem 0.2rem 1rem;
+    background: rgba(4, 98, 9, 0.74);
+
+    border: 5px solid rgb(84, 8, 226);
+
+    a {
+      color: rgb(255, 255, 255);
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #nav-button {
+    display: block;
+  }
+
+  ul {
+    float: none;
+    width: 90%;
+  }
+
+  ul li {
+    float: none;
+    display: block;
+  }
+}
+>>>>>>> master
