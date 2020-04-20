@@ -9,21 +9,23 @@
 .sitelogo {
   text-align: center;
   font-size: 140%;
-  background-color: rgb(194, 248, 184);
+  font-family: 'Manrope', sans-serif;
 
   h2 {
-    color: blueviolet;
-    padding: 1rem 1rem;
+    color: #612be2;
+    font-size: 200%;
+    padding: 2rem 1rem;
     font-family: "Times New Roman", Times, serif;
+    font-family: 'Manrope', sans-serif;
   }
 }
 
 #nav-button {
   float: left;
-  color: #fff700;
+
   padding: 0.2rem 1rem;
   font-family: inherit;
-  background: #007effa1;
+
   border-radius: 6px;
   font-size: 1.2rem;
   display: none;
@@ -31,20 +33,40 @@
 
 ul {
   text-align: center;
+
   li {
     display: inline-block;
 
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
-    padding: 1rem 7px;
-    margin: 1rem 0.3rem 0.2rem 1rem;
-    background: rgba(4, 98, 9, 0.74);
+    padding: 1rem 10px;
 
-    border: 5px solid rgb(84, 8, 226);
+    margin: 1rem 0.3rem 0.2rem 1rem;
+    transition: all .2s;
 
     a {
-      color: rgb(255, 255, 255);
+      color: black;
+      font-family: 'Manrope', sans-serif;
+      font-weight: 800;
+      letter-spacing: .1rem;
     }
+  }
+
+  li:hover,
+  li:active {
+    background: black;
+    border-radius: 10px;
+    transition: all .2s;
+
+    a {
+      color: white;
+
+    }
+
+
+
+
+
   }
 }
 
@@ -62,4 +84,29 @@ ul {
     float: none;
     display: block;
   }
+}
+
+
+
+// blog intro section   
+
+
+
+.blog-intro {
+  background-image: url();
+  background: rgb(240, 243, 231);
+
+  h2 {
+    color: #100e13;
+    font-size: 170%;
+    padding: 2rem 1rem;
+
+
+
+  }
+
+  img {
+    width: 70%;
+  }
+
 }

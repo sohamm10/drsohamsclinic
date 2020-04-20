@@ -1,6 +1,7 @@
 /* default style     removal */
 * {
      box-sizing: border-box;
+
 }
 
 html,
@@ -139,4 +140,53 @@ table {
 a {
      text-decoration: none;
      list-style: none;
+     font-weight: bolder;
+}
+
+img {
+     width: 100%;
+     height: 100%;
+}
+
+html body p {
+     font-family: 'Roboto', sans-serif;
+     padding: 1rem 1rem;
+     word-spacing: 2px;
+     letter-spacing: .8px;
+     font-weight: 300;
+
+     font-size: 120%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     font-family: 'Manrope', sans-serif;
+
+}
+
+
+.button {
+     padding: .3rem .4rem;
+     background: blue;
+     color: white;
+     border-radius: 10px;
+     border: none;
+
+}
+
+
+.underline-effect {
+
+
+     background: blue;
+     width: 25%;
+     height: 3px;
+     margin-top: 6px;
+     transition: all .8s;
+
+
 }
