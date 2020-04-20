@@ -138,6 +138,47 @@ table {
 a {
   text-decoration: none;
   list-style: none;
+  font-weight: bolder;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+html body p {
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem 1rem;
+  word-spacing: 2px;
+  letter-spacing: .8px;
+  font-weight: 300;
+  font-size: 120%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Manrope', sans-serif;
+}
+
+.button {
+  padding: .3rem .4rem;
+  background: blue;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.underline-effect {
+  background: blue;
+  width: 25%;
+  height: 3px;
+  margin-top: 6px;
+  -webkit-transition: all .8s;
+  transition: all .8s;
 }
 
 .row {
@@ -225,21 +266,21 @@ a {
 .sitelogo {
   text-align: center;
   font-size: 140%;
-  background-color: #c2f8b8;
+  font-family: 'Manrope', sans-serif;
 }
 
 .sitelogo h2 {
-  color: blueviolet;
-  padding: 1rem 1rem;
+  color: #612be2;
+  font-size: 200%;
+  padding: 2rem 1rem;
   font-family: "Times New Roman", Times, serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 #nav-button {
   float: left;
-  color: #fff700;
   padding: 0.2rem 1rem;
   font-family: inherit;
-  background: #007effa1;
   border-radius: 6px;
   font-size: 1.2rem;
   display: none;
@@ -252,13 +293,29 @@ ul {
 ul li {
   display: inline-block;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  padding: 1rem 7px;
+  padding: 1rem 10px;
   margin: 1rem 0.3rem 0.2rem 1rem;
-  background: rgba(4, 98, 9, 0.74);
-  border: 5px solid #5408e2;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 ul li a {
+  color: black;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  letter-spacing: .1rem;
+}
+
+ul li:hover,
+ul li:active {
+  background: black;
+  border-radius: 10px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+ul li:hover a,
+ul li:active a {
   color: white;
 }
 
@@ -276,11 +333,27 @@ ul li a {
   }
 }
 
+<<<<<<< HEAD
 h1 {
   margin: 0 auto;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 2rem;
   font-style: italic;
   border-bottom: 4px solid green;
+=======
+.blog-intro {
+  background-image: url();
+  background: #f0f3e7;
+}
+
+.blog-intro h2 {
+  color: #100e13;
+  font-size: 170%;
+  padding: 2rem 1rem;
+}
+
+.blog-intro img {
+  width: 70%;
+>>>>>>> master
 }
 /*# sourceMappingURL=main.css.map */
