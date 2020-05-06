@@ -30,6 +30,7 @@
   font-size: 1.2rem;
   display: none;
 }
+
 h2 {
   color: green;
   padding: 1rem;
@@ -85,20 +86,30 @@ ul {
     display: block;
   }
 
-  ul {
+  ul .topnav {
+    display: none;
+  }
+
+  ul .responsive {
     float: none;
-    width: 90%;
+    display: block;
+    transition: all 1s;
   }
 
   ul li {
-    float: none;
-    display: block;
+    width: 95%;
+    float: none
   }
+
+
+
+
+
+
 }
 
 .blog-intro {
-  background-image: url();
-  background: rgb(240, 243, 231);
+
 
   h2 {
     color: #100e13;
@@ -107,6 +118,19 @@ ul {
   }
 
   img {
+    padding: 1rem;
     width: 70%;
   }
+}
+
+
+// social media links
+.social-media-links {
+
+  color: #6e036ec7;
+  font-size: 140%;
+  padding: 1rem .6rem;
+  font-family: 'Courgette', cursive;
+
+
 }
